@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Image Carousel</title>
+</head>
+
+<body>
+    <section>
+        <div id="carousel" data-carousel>
+            <button class="carouselBtn prev" data-carousel-btn="prev">&#11207</button>
+            <button class="carouselBtn next" data-carousel-btn="next">&#11208</button>
+            <ul data-images>
+                <li class="image" data-active-img>
+                    <img src="./images/image1.jpg"
+                        alt="Cows with the mountain range 'Picos de Europa' in the background">
+                </li>
+                <li class="image">
+                    <img src="./images/image2.jpg"
+                        alt="Posada de Valdeon from high up in the mountain range 'Picos de Europa'">
+                </li>
+                <li class="image">
+                    <img src="./images/image3.jpg" alt="A deserted beach on the main island of 'Islas Cies'">
+                </li>
+                <li class="image">
+                    <img src="./images/image4.jpg" alt="The city of Tordesillas from the riverside">
+                </li>
+            </ul>
+            <ul class="carouselDots" data-carousel-dots>
+                <li class="dot" data-dot-btn data-active-dot></li>
+                <li class="dot" data-dot-btn ></li>
+                <li class="dot" data-dot-btn ></li>
+                <li class="dot" data-dot-btn ></li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
